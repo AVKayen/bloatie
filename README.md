@@ -1,8 +1,8 @@
+# **UWAGA, PROGRAM MOŻE USZKODZIĆ SYSTEM JEŚLI UŻYTY NIEODPOWIEDZIALNIE. PROSZĘ NIE ODPALAĆ**
+
 # bloatie - simple rust bloater
 
 Prosty Bloater (zaśmiecacz) napisany w języku rust
-
-# <span style="color:red">**UWAGA, PROGRAM MOŻE USZKODZIĆ SYSTEM JEŚLI UŻYTY NIEODPOWIEDZIALNIE. PROSZĘ NIE ODPALAĆ**</span>
 
 Użycie:
 
