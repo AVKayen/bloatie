@@ -2,7 +2,8 @@
 
 # bloatie - simple rust bloater
 
-Prosty Bloater (zaśmiecacz) napisany w języku rust
+Prosty Bloater (zaśmiecacz) napisany w języku rust. Działa na systemach operacyjnych Linux i Windows.
+
 
 Użycie:
 
