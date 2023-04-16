@@ -30,7 +30,7 @@ fn main() -> Result<()> {
 }
 
 fn bloat_folder(path: &Path, name: &str) -> Result<()> {
-    println!("Creating {} in {:?}", name, path);
+    println!("Tworzenie {} w {:?}", name, path);
     let file = Path::new(path).join(name);
     File::create(file)?;
     for entry in path.read_dir()? {
@@ -43,7 +43,7 @@ fn bloat_folder(path: &Path, name: &str) -> Result<()> {
 }
 
 fn debloat_folder(path: &Path, name: &str) -> Result<()> {
-    println!("Removed {} from {:?}", name, path);
+    println!("Usuwanie {} z {:?}", name, path);
     let file = Path::new(path).join(name);
     remove_file(file)?;
     for entry in path.read_dir()? {
