@@ -5,8 +5,8 @@
 Prosty Bloater (zaśmiecacz) napisany w języku rust. Działa na systemach operacyjnych Linux i Windows.
 
 
-Użycie:
+### Użycie:
 
-```$ bloatie bloat . hehe.bloater     # tworzy plik "haha.bloater" w każdej podścieżce ścieżki "." włącznie```
+```$ bloatie bloat ./path hehe.bloater``` - Tworzy plik "hehe.bloater" w każdej podścieżce ścieżki "./path" włącznie
 
-```$ bloatie bloat . hehe.bloater     # usuwa plik "haha.bloater" z każdej podścieżki ścieżki "." włącznie```
+```$ bloatie bloat ./path hehe.bloater``` - Usuwa plik "hehe.bloater" z każdej podścieżki ścieżki "./path" włącznie
