@@ -15,14 +15,15 @@ fn main() -> Result<()> {
                 } else if args[1] == "debloat" {
                     debloat_folder(path, &name)?;
                 } else {
-                    eprintln!("Nieprawidłowa metoda: {}. Poprawne to 'bloat' i 'debloat'.", args[1]);
+                    eprintln!("Nieprawidłowa metoda: {}. Prawidłowe: 'bloat', 'debloat'", args[1]);
                 }
             
         } 
             Ok(())
         }
      else {
-        println!("Użycie:");
+        println!(" bloatie v0.1.0 by AVKayen\n");
+        println!(" Użycie:");
         println!("  $ bloatie bloat . hehe.bloater     # tworzy plik \"haha.bloater\" w każdej podścieżce ścieżki \".\"");
         println!("  $ bloatie bloat . hehe.bloater     # usuwa plik \"haha.bloater\" z każdej podścieżki ścieżki \".\"");
         Ok(())
